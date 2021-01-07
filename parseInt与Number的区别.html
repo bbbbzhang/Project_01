@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+
+</body>
+<script>
+    console.log(parseInt('3.14'));
+    // 结果是： 蓝色数字型3
+    console.log(parseInt('abc3.14'));
+    // 结果是： 蓝色数字型NaN
+    console.log(parseInt(''));
+    //结果是： 蓝色数字型NaN
+    console.log(parseInt('123a'));
+    // 结果是： 蓝色数字型123
+
+    console.log(Number('1.2'));
+    //结果是： 蓝色数字型1 .2
+    console.log(Number('abc3.14'));
+    //结果是： 蓝色数字型NaN
+    console.log(Number(''));
+    //结果是： 蓝色数字型0
+    console.log(Number('123a'));
+    //结果是： 蓝色数字型NaN
+
+    console.log('12' - 0);
+    //结果是： 蓝色数字型12
+</script>
+
+</html>

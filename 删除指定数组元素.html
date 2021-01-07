@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+
+</body>
+<script>
+    var arr = [1, 2, 12, 13, 14, 3, 6, 5, 0];
+    var newArr = [];
+    for (var i = 0; i < arr.length; i++) {
+        if (arr[i] != 0) {
+            newArr[newArr.length] = arr[i];
+        }
+    }
+    //删除了0
+    console.log(newArr);
+</script>
+
+</html>
